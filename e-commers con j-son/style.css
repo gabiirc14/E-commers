@@ -1,0 +1,84 @@
+
+.img-thumbnail{
+    border: 0;
+    margin: 10px;
+}
+
+.nav_black {
+   background-color: blue; 
+}
+html, body {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+}
+
+.card{
+    margin: 20px;
+}
+.img-compra{
+   font-size: 20px;
+   
+}
+
+.img-carrito{
+    width: 200px;
+    padding: 20px;
+}
+
+.modal-contenedor{
+    display: flex;
+    align-items: center;
+}
+
+.centrado{
+    justify-content: center;
+    flex: auto;
+    width: 10px;
+}
+.edit_titulo{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px;
+}
+
+.buttonComprar{
+    width: 100%;
+}
+
+
+
+#contenedor  {
+    justify-content: center;
+
+}
+
+.carousel{
+    margin-top: 70px;
+}
+.carousel-item {
+    animation: slide-in-out 0.1s ease-in-out;
+  }
+
+
+/*boton busqueda */
+.custom-search {
+    font-size: 1.1rem; /* Tamaño de fuente personalizado */
+    padding: 0.5rem 1rem; /* Padding personalizado */
+    width: 600px;
+  }
+
+/* nav principal */
+
+.bg-primari {
+    background-color: #042943;
+    padding: 15px;
+}
+
+.bg-color {
+    background-color: dodgerblue; 
+    padding: 10px;
+}
+
+.navbar-nav .nav-link {
+    color: rgb(241, 241, 245); /* Cambia "blue" al color que desees */
+  }

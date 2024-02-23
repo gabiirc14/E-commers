@@ -12,9 +12,6 @@ html, body {
     overflow-x: hidden !important;
 }
 
-.card{
-    margin: 20px;
-}
 .img-compra{
    font-size: 20px;
    
@@ -52,9 +49,7 @@ html, body {
 
 }
 
-.carousel{
-    margin-top: 70px;
-}
+
 .carousel-item {
     animation: slide-in-out 0.1s ease-in-out;
   }
@@ -75,10 +70,27 @@ html, body {
 }
 
 .bg-color {
-    background-color: dodgerblue; 
-    padding: 10px;
+    background-color: dodgerblue;
+    height: 30px;
 }
 
 .navbar-nav .nav-link {
     color: rgb(241, 241, 245); /* Cambia "blue" al color que desees */
+  }
+
+
+
+/* Transición imagenes*/
+
+  .image-container {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .image-container img {
+    transition: transform 0.3s ease;
+  }
+  
+  .image-container:hover img {
+    transform: scale(1.1);
   }

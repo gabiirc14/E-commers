@@ -6,6 +6,8 @@ const vaciarCarrito = document.querySelector("#vaciarCarrito")
 const precioTotal = document.querySelector("#precioTotal")
 const procesarCompra = document.querySelector("#procesarCompra")
 
+
+
 //guardado de datos en el localStorage
 document.addEventListener("DOMContentLoaded",() => {
   carrito = JSON.parse(localStorage.getItem("carrito")) || []

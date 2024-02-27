@@ -85,12 +85,52 @@ html, body {
   .image-container {
     position: relative;
     overflow: hidden;
+    
   }
   
-  .image-container img {
-    transition: transform 0.3s ease;
-  }
   
   .image-container:hover img {
     transform: scale(1.1);
   }
+
+
+
+  .newsletter {
+    background: #042943;
+    height: 20vh; /* Esto es para hacer que el div ocupe toda la altura de la pantalla */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0px;
+    
+}
+
+.newsletter h3 {
+  color: aliceblue;
+  height: 30px;
+  
+}
+
+
+/*achicar boton
+*/
+.smaller-btn {
+  
+  height: 40px;
+  margin: 0px;
+  
+}
+
+
+.custom-card {
+  width: 15rem; /* Ancho personalizado de la card */
+}
+
+.custom-card .card-img-top {
+  height: 300px; /* Altura personalizada de la imagen */
+  object-fit: cover; /* Ajusta la imagen para que se ajuste dentro del contenedor */
+}
+
+.banner{
+  width: 100% !important;
+}

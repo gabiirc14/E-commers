@@ -41,6 +41,17 @@ const catalogo = async() =>{
 
 catalogo();
 
+//funcion para traer el archivo json
+const peticion1 = async () => {
+  const resp = await fetch("/datos.json");
+  const data = await resp.json();
+
+  return data
+}
+
+
+
+
 
 //asignacion evento click para la continuacion de compra
 procesarCompra.addEventListener("click",()=>{
@@ -120,6 +131,8 @@ const mostrarCarrito = ()=> {
 
     
 }
+
+
 
 //funcion elimiar producto
 function eliminarProducto(id) {
